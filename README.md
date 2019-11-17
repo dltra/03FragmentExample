@@ -13,7 +13,9 @@
 	*	insert into the Activity's layout (.xml) using the <fragement> tag
 
 *Built on API 22 (Lollipop)*
-### FirstFragment.java
+
+[Generate FirstFrament .java and .xml files and insert into MainActivity](https://github.com/dltra/03FragmentExample/commit/a4a54850bb50e413e51bf8216696474657cbec7e)
+### FirstFragment.java 
 * R-click on java/packageFolder => **New** => **Java Class** => **FirstFragment**, Superclass: **Fragment**
 * **alt + insert** to insert default constructor
 	* Empty default constructor is required
@@ -31,7 +33,9 @@
 * verify the versions of the dependencies
 
 *Test App*
-## Basic Fragment 
+
+[Add Toolbar and FloatingActionButton](https://github.com/dltra/03FragmentExample/commit/5d3da41ddace3af909157c93454b1f077b5d4cc0)
+## Basic Fragment  
 ### AndroidManifest.xml
 * set application label (App name)
 * set activity label (Activity name)
@@ -54,21 +58,24 @@
 
 *Test App*
 
-### content_main.xml
+[Make content layout to include fragment](https://github.com/dltra/03FragmentExample/commit/1cfcda97fcb61081e678d23ec727307ccdb500ac)
+### content_main.xml 
 * create layout with **FirstFragment**
 ### activity_main.xml
 * include the **content_main.xml** layout
 
-*Test App*
+*Test App* 
 
-### MainActivity.java
+[Assign toolbar to activity, pop up Snackbar message](https://github.com/dltra/03FragmentExample/commit/2ecf910833941ff2a65cec0814fe4e2d991621ca)
+### MainActivity.java 
 * assign toolbar to MainActivity
 * set onClick listener to floating action button
   * display a Snackbar (like Toast)
   
 *Test App*
 
-### menu_main.xml
+[Add toolbar menu options](https://github.com/dltra/03FragmentExample/commit/c65b4b2c698320904a7866893128ebcc6f1467b9)
+### menu_main.xml 
 * R-click on res => **New** => **Android Resource Directory** => type "m" for menu
 * make a new menu layout in the *menu* subdirectory
     * add an item
