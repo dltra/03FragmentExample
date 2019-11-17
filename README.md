@@ -53,3 +53,10 @@
 * add **AppBarLayout** and **FloatingActionButton**
 
 *Test App*
+
+### content_main.xml
+* create layout with **FirstFragment**
+### activity_main.xml
+* include the **content_main.xml** layout
+
+*  *Test App*
