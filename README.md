@@ -67,3 +67,18 @@
   * display a Snackbar (like Toast)
   
 *Test App*
+
+### menu_main.xml
+* R-click on res => **New** => **Android Resource Directory** => type "m" for menu
+* make a new menu layout in the *menu* subdirectory
+    * add an item
+
+### strings.xml
+* define action_settings string
+
+### MainActiviity.java
+* add an onCreate listener for menu options: ``onCreateOptionsMenu(Menu menu)``
+    * inflate the menu_main.xml layout
+* add responder for menu options selected: ``onOptionsItemSelected(MenuItem item)``
+
+*Test App*
