@@ -59,4 +59,11 @@
 ### activity_main.xml
 * include the **content_main.xml** layout
 
-*  *Test App*
+*Test App*
+
+### MainActivity.java
+* assign toolbar to MainActivity
+* set onClick listener to floating action button
+  * display a Snackbar (like Toast)
+  
+*Test App*
