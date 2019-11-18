@@ -89,3 +89,31 @@
 * add responder for menu options selected: ``onOptionsItemSelected(MenuItem item)``
 
 *Test App*
+
+
+## Menu App 
+### app_bar_main.xml
+* move toolbar and floating action button from **activity_main.xml** to new layout **app_bar_main.xml**
+### res/drawable/
+* **side_nav_bar.xml**
+    * R-click on **res/drawable** => **New** => **Drawable Resource File** => name **side_nav_bar**
+    * add a rectangular gradient
+*  add the other drawable .xml files (camera, gallery, manage, send, share, slideshow)
+### dimens.xml
+* set the dimensions for nav header
+### strings.xml
+* set the navigation drawer strings
+### nav_header_main.xml
+* create a vertical LinearLayout with an ImageView and 2 TextViews
+    * utilize **dimens.xml**, **strings.xml**, and **nav_header_main.xml**
+### res/menu/activity_main_drawer.xml
+* make a new layout in the **res/menu** folder: **activity_main_drawer.xml**
+* add the navigation drawables
+### activity_main.xml
+* convert to a DrawerLayout
+    * include the **app_bar_main.xml** layout
+    * add a NavigationView using the **nav_header_main.xml** layout
+### build.gradle
+* add dependency: ``implementation "androidx.drawerlayout:drawerlayout:1.0.0``
+
+*Test App* (You shouldn't see any changes, but verify that the app runs.)
