@@ -118,9 +118,13 @@
 
 *Test App* (You shouldn't see any changes, but verify that the app runs.)
 
-
+[Add ActionBarDrawerToggle and Implement Navigation Selection Listener](https://github.com/dltra/03FragmentExample/commit/8ba6cf048158cf0cc04699f874db4276a881a51b)
 ### MainActivity.java
 * implement ``NavigationView.OnNavigationItemSelectedListener``
 * add **ActionBarDrawerToggle**
 
 *Test App*
+
+
+### MainActivity.java
+* implement **onBackPressed()** event responder to close drawer if it is open
