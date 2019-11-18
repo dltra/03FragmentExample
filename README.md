@@ -90,7 +90,7 @@
 
 *Test App*
 
-
+[Add DrawerLayout and NavigationView](https://github.com/dltra/03FragmentExample/commit/a027b71485111e7737e1e25c1213b3df2d68ec6f)
 ## Menu App 
 ### app_bar_main.xml
 * move toolbar and floating action button from **activity_main.xml** to new layout **app_bar_main.xml**
@@ -117,3 +117,10 @@
 * add dependency: ``implementation "androidx.drawerlayout:drawerlayout:1.0.0``
 
 *Test App* (You shouldn't see any changes, but verify that the app runs.)
+
+
+### MainActivity.java
+* implement ``NavigationView.OnNavigationItemSelectedListener``
+* add **ActionBarDrawerToggle**
+
+*Test App*
